@@ -1,5 +1,11 @@
 # nested-kvm
 
+## git housekeeping
+
+```bash
+git config --global credential.helper "cache --timeout=3600"
+```
+
 ## start nested vm on libvirt
 
 ```ruby
