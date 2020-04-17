@@ -105,6 +105,8 @@ sudo dnf install -y wget
 
 ## Download minikube
 
+[from here](https://computingforgeeks.com/how-to-install-minikube-on-centos-linux-with-kvm/)
+
 ```bash
 # install
 cd && \
@@ -134,11 +136,12 @@ minikube start
 ```
 
 
-## 
-
+## status minikube
 
 ```bash
 kubectl cluster-info
 kubectl config view
 kubectl get nodes
 ```
+
+## stop minikube
